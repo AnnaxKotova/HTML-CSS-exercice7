@@ -1,0 +1,134 @@
+
+.grid{
+    display: grid;
+    grid-template-columns: 330px 220px 110px 110px 20px 200px;
+    grid-template-rows: 22px 44px 44px 110px;
+}
+
+#rec1{
+    background-color:green;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+#rec2{
+    background-color:blue;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+#rec3{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    /* on peut aussi écrire ça comme ceci : grid-area: 2 / 1 / 4 / 2*/
+}
+
+#rec4{
+    background-color:orange;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#rec5{
+    background-color: grey;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#rec6{
+    background-color: yellow;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#rec7{
+    background-color: turquoise;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#rec8{
+    background-color: orangered;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#rec9{
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+
+
+
+
+/*
+.svert{
+    background-color: green;
+    width 80%
+    height: 10px:
+}
+.sbleu{
+    background-color: blue;
+    width 20%:
+    height: 10px
+}
+.srouge{
+    background-color: red;
+    width 33%:
+    height: 20px;
+}
+.sorange{
+    background-color: orange;
+    width 33%:
+    height: 20px;
+}
+.sgris{
+    background-color: gray;
+    width 33%:
+    height: 20px;
+}
+.sjaune{
+    background-color: yellow;
+    width 22%:
+    height: 20px;
+}
+.sturq{
+    background-color: turquoise;
+    width 22%:
+    height: 20px;
+}
+.sorangered{
+    background-color: orangered;
+    width 22%:
+    height: 20px;
+}
+.snoir{
+    background-color: black;
+    height: 50px;
+    width 100px;
+}
+.height1{
+    height: 10px;
+    width 100px;
+}
+.height2{
+    height: 20px;
+    width 100px;
+}
+*/
